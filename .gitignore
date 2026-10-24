@@ -1,1 +1,42 @@
+# Compiled Java class files
+*.class
 
+# Package files / Executables
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Visual Studio Code settings
+.vscode/
+
+# Eclipse IDE
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Operating System generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
