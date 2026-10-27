@@ -200,7 +200,7 @@ public class SinglyLinkedList
         }
         else
         {
-            int i=1;              // Fixed syntax error: 'nt' -> 'int'
+            int i=1;             
             while(i<pos-1)
             {
                 temp=temp.next;
@@ -259,7 +259,7 @@ public class SinglyLinkedList
                 {
                     temp.data= new_value;
                 }
-                temp= temp.next; // Fixed duplicate advance: now advances once per iteration
+                temp= temp.next; 
             }
         }
     }
@@ -315,7 +315,7 @@ public class SinglyLinkedList
                 {
                     max= temp.data;
                 }
-                temp= temp.next; // Fixed duplicate advance
+                temp= temp.next; 
             }
             return max;
         }
@@ -339,7 +339,7 @@ public class SinglyLinkedList
                 {
                     min= temp.data;
                 }
-                temp= temp.next; // Fixed typo: 'temp = temp.data' -> 'temp = temp.next'
+                temp= temp.next; 
             }
             return min;
         }
